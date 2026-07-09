@@ -13,3 +13,9 @@ export NAME="ouotingwei"
 
 git pull
 bash run.sh
+
+# 推回 GitHub
+today=$(date -u "+%Y-%m-%d")
+git add .
+git commit -m "auto: daily arXiv update ${today}" || echo "沒有新變更,略過 commit"
+git push
