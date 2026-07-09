@@ -105,6 +105,10 @@ esac
 
 cd ..
 
+# 第2.5步：关键字过滤 / Step 2.5: Keyword filter
+echo "步骤2.5：关键字过滤... / Step 2.5: Keyword filtering..."
+python3 keyword_filter.py data/${today}.jsonl
+
 # 第三步：AI处理 / Step 3: AI processing
 if [ "$PARTIAL_MODE" = "false" ]; then
     echo "步骤3：AI增强处理... / Step 3: AI enhancement processing..."
