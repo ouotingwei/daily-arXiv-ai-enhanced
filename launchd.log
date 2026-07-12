@@ -127,3 +127,24 @@ Already up to date.
    ✅ AI增强处理 / AI enhancement
    ✅ Markdown转换 / Markdown conversion
    ✅ 文件列表更新 / File list update
+[main 1d593d5] auto: daily arXiv update 2026-07-11
+ 6 files changed, 1569 insertions(+)
+ create mode 100644 data/2026-07-11.jsonl
+ create mode 100644 data/2026-07-11.md
+ create mode 100644 data/2026-07-11_AI_enhanced_Chinese.jsonl
+=== 本地调试环境检查 / Local Debug Environment Check ===
+⚠️  提示：未设置 TOKEN_GITHUB / Warning: TOKEN_GITHUB not set
+可能导致 GitHub 相关功能受限 / May limit GitHub related functionalities
+✅ TOKEN_GITHUB 已设置 / TOKEN_GITHUB is set
+✅ OPENAI_API_KEY 已设置 / OPENAI_API_KEY is set
+🔧 当前配置 / Current configuration:
+   LANGUAGE: Chinese
+   CATEGORIES: cs.CV, cs.RO, cs.AI
+   MODEL_NAME: qwen3.5:9b
+   OPENAI_BASE_URL: http://localhost:11434/v1
+
+=== 开始本地调试流程 / Starting Local Debug Workflow ===
+本地测试：爬取 2026-07-12 的arXiv论文... / Local test: Crawling 2026-07-12 arXiv papers...
+步骤1：开始爬取... / Step 1: Starting crawl...
+📝 今日文件不存在，准备新建... / Today's file doesn't exist, ready to create new one...
+步骤2：执行去重检查... / Step 2: Performing intelligent deduplication check...
