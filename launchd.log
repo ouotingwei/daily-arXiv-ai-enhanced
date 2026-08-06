@@ -425,3 +425,8 @@ Already up to date.
    ✅ AI增强处理 / AI enhancement
    ✅ Markdown转换 / Markdown conversion
    ✅ 文件列表更新 / File list update
+[main 1a1bf3a] auto: daily arXiv update 2026-08-05
+ 6 files changed, 2707 insertions(+)
+ create mode 100644 data/2026-08-05.jsonl
+ create mode 100644 data/2026-08-05.md
+ create mode 100644 data/2026-08-05_AI_enhanced_Chinese.jsonl
